@@ -1,0 +1,18 @@
+{
+  "name": "omw-migration-redirect-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free migration URL mapping and redirect checker by Optimize My Websites.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node tests/redirect-checker.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
+  }
+}
